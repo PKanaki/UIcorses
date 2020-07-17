@@ -15,6 +15,8 @@ import { SocialLoginModule, SocialAuthServiceConfig } from 'angularx-social-logi
 import { GoogleLoginProvider } from 'angularx-social-login';
 import { AllcoursesComponent } from './allcourses/allcourses.component';
 import { ELearningSyllabusComponent } from './e-learning-syllabus/e-learning-syllabus.component';
+import { AboutusComponent } from './aboutus/aboutus.component';
+import { CertificateComponent } from './certificate/certificate.component';
 
 
 @NgModule({
@@ -27,7 +29,9 @@ import { ELearningSyllabusComponent } from './e-learning-syllabus/e-learning-syl
     StudentDashboardComponent,
     TutorDashboardComponent,
     AllcoursesComponent,
-    ELearningSyllabusComponent
+    ELearningSyllabusComponent,
+    AboutusComponent,
+    CertificateComponent
   ],
   imports: [
     BrowserModule,
